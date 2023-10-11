@@ -1,0 +1,11 @@
+#program for student is pass or fial
+sno=int(input("enter sno"))
+sname=input("enter student name")
+group=input("enter student group")
+s1=int(input("enter subject 1 marks"))
+s2=int(input("enter subjecct 2 marks"))
+s3=int(input("enter subject 3 marks"))
+if(s1>=40 and s2>=40 and s3>=40):
+    print("pass")
+else:
+    print("fail")
