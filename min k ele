@@ -1,0 +1,9 @@
+###### find the min k element from the list
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+l=list(set(l))
+for i in range(1,k):
+    m=min(l)
+    l.remove(m)
+print(min(l)) 
