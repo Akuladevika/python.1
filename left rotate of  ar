@@ -1,0 +1,8 @@
+#left rotate of arr
+
+def rotLeft(a, d):
+    # Write your code here
+    d=d%n
+    l1=a[0:d]
+    l2=a[d:n]
+    return l2+l1
